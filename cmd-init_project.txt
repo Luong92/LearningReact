@@ -1,0 +1,39 @@
+npm init --y
+(If you have no global directory) => npm i -g webpack webpack-dev-server
+npm i -D webpack
+npm install --save react react-dom
+npm install -S webpack-dev-server
+npm i -D babel-core babel-loader babel-preset-es2015 babel-preset-react react-hot-loader webpack webpack-dev-server
+
+============================== Material-UI =================================
+npm install material-ui
+npm i --save react-tap-event-plugin
+
+============================== Redux =======================================
+npm i -S redux
+npm install --save react-redux
+npm i --save redux-logger
+npm install --save redux-thunk
+npm i -S redux-middleware
+npm install --save redux-promise
+npm install --save redux-promise-middleware
+
+=================== ES 6 (Configure in Webpack.config.js) ==================
+npm install --save babel-plugin-transform-object-rest-spread
+npm install --save-dev babel-plugin-transform-class-properties
+
+======================== CSS modules =======================================
+npm i -D css-loader style-loader
+npm i -D extract-text-webpack-plugin
+npm i -D static-site-generator-webpack-plugin
+npm install style-loader
+npm install --save radium
+
+npm i -D extract-text-webpack-plugin
+
+
+========================== Router ==========================================
+npm i -D react-router
+npm install postcss-short --save-dev
+npm install nib
+npm install sass
