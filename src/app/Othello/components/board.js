@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import styles from "../styles/board-game"
 
 function gamePiece(color){
   return(
@@ -11,7 +12,7 @@ function gamePiece(color){
 
 function Square(props){
   return(
-    <button className="square"
+    <button className="square" style={styles.square}
             id={`square${props.i}${props.j}`}
             onClick={() => props.onClick()}
             onMouseEnter={() => props.onMouseEnter()}

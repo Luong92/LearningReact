@@ -5,6 +5,8 @@ import NavigationClose from 'material-ui/svg-icons/navigation/close';
 import FlatButton from 'material-ui/FlatButton';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 
+import muiThemeable from 'material-ui/styles/muiThemeable'
+
 injectTapEventPlugin();
 const styles = {
   title: {

@@ -139,7 +139,7 @@ export class Game extends Component{
       <MuiThemeProvider muiTheme={muiTheme}>
         <div>
           <AppBarExampleIconButton handleTouchTap={() => this.resetBoard()}/>
-          <div className="header">
+          <div className="header" style={styles.header}>
             <h1 style={styles.base}>Welcome to Othello</h1>
             <label>Select screen color
               <SelectColor value={this.props.bgColor} onColorChange={(color) =>

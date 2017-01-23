@@ -9,7 +9,7 @@ npm i -D babel-core babel-loader babel-preset-es2015 babel-preset-react react-ho
 npm install material-ui
 npm i --save react-tap-event-plugin
 
-============================== Redux =======================================
+================================= Redux ====================================
 npm i -S redux
 npm install --save react-redux
 npm i --save redux-logger
@@ -22,12 +22,21 @@ npm install --save redux-promise-middleware
 npm install --save babel-plugin-transform-object-rest-spread
 npm install --save-dev babel-plugin-transform-class-properties
 
+============================== Decorators ==================================
+npm i babel-plugin-transform-decorators-legacy
+
+============================ Inline styling ================================
+reference: http://survivejs.com/react/advanced-techniques/styling-react/
+npm install react-style
+npm install --save radium
+
+
 ======================== CSS modules =======================================
 npm i -D css-loader style-loader
 npm i -D extract-text-webpack-plugin
 npm i -D static-site-generator-webpack-plugin
 npm install style-loader
-npm install --save radium
+
 
 npm i -D extract-text-webpack-plugin
 
